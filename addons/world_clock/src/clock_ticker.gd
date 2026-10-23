@@ -1,6 +1,9 @@
 extends Node
 
-class_name ClockTicker
+
+
+
+
 
 var timer: Timer
 
@@ -9,9 +12,11 @@ signal hour_changed(hour)
 signal season_changed(season)
 signal day_changed(day)
 
-var hour: int = 0
+
 enum days {monday, tuesday, wednesday, thursday, friday, saturday, sunday}
 enum seasons{winter, spring,summer, autumn }
+@export_group("Time settings")
+@export var hour: int = 0
 @export var hour_duration : float  = 1.0
 @export var day = days.monday
 @export_range(1,365,1) var days_in_a_season: int = 1

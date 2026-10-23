@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://tmt656k28uxc"]
+
+[ext_resource type="Script" uid="uid://pn8dqillfaey" path="res://addons/world_clock/src/clock_ticker.gd" id="1_3b6ky"]
+
+[node name="test" type="Node2D" unique_id=1089367959]
+
+[node name="WorldClock" type="Node" parent="." unique_id=478137969]
+script = ExtResource("1_3b6ky")
+metadata/_custom_type_script = "uid://pn8dqillfaey"

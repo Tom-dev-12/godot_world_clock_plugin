@@ -2,7 +2,7 @@
 extends EditorPlugin
 
 const AUTOLOAD_NAME = "WorldClock"
-const AUTOLOAD_PATH = "res://addons/world_clock/clock_ticker.gd"
+const AUTOLOAD_PATH = "res://addons/world_clock/src/clock_ticker.gd"
 
 func _enable_plugin() -> void:
 	add_autoload_singleton(AUTOLOAD_NAME, AUTOLOAD_PATH)
