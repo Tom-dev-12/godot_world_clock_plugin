@@ -6,4 +6,6 @@
 
 [node name="WorldClock" type="Node" parent="." unique_id=478137969]
 script = ExtResource("1_3b6ky")
+hour = 22
+day = 5
 metadata/_custom_type_script = "uid://pn8dqillfaey"

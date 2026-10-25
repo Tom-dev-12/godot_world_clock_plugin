@@ -38,7 +38,7 @@ func _ready() -> void:
 	
 	
 	
-	
+
 	
 	
 func on_timer_timeout():
@@ -65,6 +65,11 @@ func on_timer_timeout():
 	
 		
 	
+func set_hour(hour_set: int):
+	if hour_set <=23 and hour_set >=0:
+		hour = hour_set
+	else: 
+		push_error("Invalid hour must be inbetween 0 and 23")
 	
 	
 	
